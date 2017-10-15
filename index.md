@@ -1,6 +1,6 @@
 <!--
-.. title: About Me
-.. slug: me
+.. title: Personal Bio
+.. slug: index
 .. date: 2017-08-04 10:52:56 UTC+02:00
 .. tags: 
 .. category: 
@@ -8,9 +8,6 @@
 .. description: Antonio Ercole De Luca, Senior Software Developer, Università di Pisa, Business Informatics, Computer Science, Python, Django.
 .. type: text
 -->
-
-
-
 
 # Antonio Ercole De Luca  <img src="https://avatars2.githubusercontent.com/u/3613943?v=4&s=460" width="230" height="230"  align="right"/> 
  I'm a Senior Software Developer with 5 years of experience on Java and Python languages and related technologies. I hold a Bachelor's degree on pure Computer Science and a Master's degree in Business Informatics from one of the best Italian Universities on the field of computer science: University of Pisa. 

@@ -1,5 +1,5 @@
 <!--
-.. title: Scraper on AWS Elastic Beanstalk - Don't do that!
+.. title:  Scraper on AWS Elastic Beanstalk - <br>Don't do that!
 .. slug: scraper-on-aws-elastic-beanstalk-dont-do-that
 .. date: 2017-09-09 09:05:10 UTC+02:00
 .. tags: Amazon AWS, scrapy, django

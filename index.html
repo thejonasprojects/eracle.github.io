@@ -5,9 +5,9 @@ article: http://ogp.me/ns/article#
 " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Antonio Ercole De Luca Page">
+<meta name="description" content="Antonio Ercole De Luca, Senior Software Developer, Università di Pisa, Business Informatics, Computer Science, Python, Django.">
 <meta name="viewport" content="width=device-width">
-<title>Thoughts and Stuff | Thoughts and Stuff</title>
+<title>Personal Bio | Personal Page</title>
 <link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://eracle.github.io/index.html">
@@ -20,138 +20,37 @@ article: http://ogp.me/ns/article#
           ga('create', 'UA-105867974-1', 'auto');
           ga('send', 'pageview');
 
-        </script><style>
-    div.input_prompt {
-      display: none;
-    }
-    </style>
+        </script><meta name="author" content="Antonio Ercole De Luca (eracle)">
+<meta property="og:site_name" content="Personal Page">
+<meta property="og:title" content="Personal Bio">
+<meta property="og:url" content="http://eracle.github.io/index.html">
+<meta property="og:description" content="Antonio Ercole De Luca, Senior Software Developer, Università di Pisa, Business Informatics, Computer Science, Python, Django.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-08-04T10:52:56+02:00">
+<meta name="author" content="Antonio Ercole De Luca (eracle)">
+<meta property="og:site_name" content="Personal Page">
+<meta property="og:title" content="Personal Bio">
+<meta property="og:url" content="http://eracle.github.io/index.html">
+<meta property="og:description" content="Antonio Ercole De Luca, Senior Software Developer, Università di Pisa, Business Informatics, Computer Science, Python, Django.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-08-04T10:52:56+02:00">
+<meta name="description" itemprop="description" content="Antonio Ercole De Luca, Senior Software Developer, Università di Pisa, Business Informatics, Computer Science, Python, Django.">
 </head>
 <body>
     <section class="social"><ul>
-<li><a href="#" title="Home"><i class="icon-home"></i></a></li>
+<li><a href="posts/index.html" title="Home"><i class="icon-home"></i></a></li>
             <li><a href="archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
             <li><a href="categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
-            <li><a href="posts/me.html" title="About me"><i class="icon-user"></i></a></li>
+            <li><a href="#" title="About me"><i class="icon-user"></i></a></li>
             <li><a href="https://www.linkedin.com/in/eracle/" title="Linkedin"><i class="icon-linkedin-sign"></i></a></li>
             <li><a href="https://github.com/eracle" title="My Github"><i class="icon-github"></i></a></li>
 
         </ul></section><section class="page-content"><div class="content" rel="main">
-        <div class="post">
-            <h1 class="title"><a href="posts/pre-interview-questions.html">Sr. backend software engineer - interview questions:</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2017-10-10T09:05:10+02:00">2017-10-10 09:05</time>
-</div>
-                <div class="stats">
-                    
-                </div>
-                    <div itemprop="keywords" class="tags">
-        <ul>
-        Tags : 
-           <li><a class="tag p-category" href="categories/amazon-aws.html" rel="tag">Amazon AWS</a></li>
-           <li><a class="tag p-category" href="categories/django.html" rel="tag">django</a></li>
-           <li><a class="tag p-category" href="categories/drf.html" rel="tag">DRF</a></li>
-           <li><a class="tag p-category" href="categories/interview.html" rel="tag">Interview</a></li>
-           <li><a class="tag p-category" href="categories/mailgun.html" rel="tag">Mailgun</a></li>
-           <li><a class="tag p-category" href="categories/rest-api.html" rel="tag">REST API</a></li>
-        </ul>
-</div>
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name">Personal Bio</h1>
 
-            </div>
-            <div class="body">
-                <div>
-<p><img alt="Interview Questions" src="https://www.cheatsheet.com/wp-content/uploads/2016/07/Manager-and-a-candidate-in-a-job-interview.jpg"></p>
-<p>I want to share here some answers I have written, during a pre-interview that I've approached for the role of sr. backend software engineer:</p>
-<h5>How would you design an horizontally scalable REST-API? Which techniques? Which Backend Architecture? Database?</h5>
-<p>Also influenced by the tools I've already used, I would use Amazon AWS, in particular, for the Django web server: Elastic Beanstalk and its Auto Scaling feature, which automatically deploys new back-end instances during peak load periods. That would implement an horizontally scalable REST-API.
-Regarding the DB, horizontal scaling means using a solution with a read-write instance and a pool of read-only replicas. As this <a href="https://aws.amazon.com/blogs/database/scaling-your-amazon-rds-instance-vertically-and-horizontally/">Amazon RDS</a> article points out, this solution can be easily implemented by using Amazon RDS, which allows to configure read-only database replicas continuously kept up-to-date, under the hood, in an asynchronous way by the service it selves. Regarding the single read-write instance, Amazon RDS allows Vertical Scaling by offering DB instance classes with different performances and costs, so the right DB class can be chosen if the expected load of write queries is forecastable. </p>
-<h5>How does Django supports backend scaling?</h5>
-<p>Django provides the Database <a href="https://docs.djangoproject.com/en/1.11/topics/db/multi-db/#an-example">Routers configuration</a>, which allows to define different database endpoints and different routing rules for each of them. If its performances are not satisfactory, with AWS, there is the possibility to configure an <a href="http://docs.aws.amazon.com/opsworks/latest/userguide/layers-haproxy.html">HAProxy layer</a> as an AWS OpsWorks Stacks Layer. In both cases, write queries would be routed to the read-write DB instance and read queries to the read-only replicas.</p>
-<h5>Please, give some details over CSRF protection provided by Django REST framework.</h5>
-<p>CSRF is a security concern that affects browsers or apps that contain an embedded browser, like an Android WebView.
-There are different use cases for the REST APIs consumption:</p>
-<ul>
-<li>Stand-alone clients like Android apps or Desktop applications:
-In this case, django-rest-framework's TokenAuthentication would be used, which does not run the CSRF security checks;</li>
-<li>AJAX calls of a client browser:
-In this case, django-rest-framework's SessionAuthentication is the one used. It does run the CSRF security checks, so there are some API's design rules that have to be followed:
-First, the REST APIs must have all GETs endpoints side effect free, that means, those endpoints do not have to change the DB's data, in other words, they are read-only toward the DB.
-Second, for all the non GETs calls, each client must send a custom HTTP header, namelly 'X-CSRFToken', with the value of the CSRF token cookie the backend provides after authentication.</li>
-</ul>
-<h5>How would you implement the execution of a long-running task (5 minutes) triggered by a POST message?</h5>
-<p>Obviously, is not possible to execute the long-running task during the request-response cycle. Http requests are neither designed nor suited for this kind of behavior, and a time-out is what would happen during such as an heretic implementation.</p>
-<p>As the one I have used on the <a href="https://github.com/eracle/rbroker">rbroker</a> source code, python offers a plenty of asynchronous libraries, in particular, I used django_q, which allows to define asynchronous tasks, which are executed by threads (workers) of a different process. </p>
-<p>Asynchronous libraries use to use brokers, which are data storages where the information needed by the workers are kept and shared.
-For instance, I have configured django_q to use as broker the same underling database used by the others django apps. This is not efficient on production environments, since by competing on accessing the same database it would slow down the rest of the system.
-Among the others python asynchronous libraries, worth to be noted, there is celery, which I had to deal with during one of my past working experiences. It offers a variety of different brokers, such as Redis, an efficient key-value storage, and Amazon SQS, a broker as-a-service offered by Amazon AWS. </p>
-<h5>How would you implement the send of an e-mail, through a known REST API, triggered by a POST message received, taking into account that the send may be not successful?</h5>
-<p>During one of my past working experiences, we had to send emails during the normal user's work-flow, for instance subscription confirms. The project code-base was using the <a href="https://docs.djangoproject.com/en/1.11/topics/email/">django mail module</a>. After some time, some emails were hidden in the spam buckets of our users' email service provider. After that, we decided to outsource the task to an external provider, at that time the decision was <a href="https://www.mailgun.com/">mailgun</a>. It allowed to free send up to 10,000 emails every month, in an asynchronous way, by using a REST API. In particular, by leveraging the <a href="https://github.com/anymail/django-anymail">django-anymail</a> library, which offers a unified python API toward different providers, such as: Mailgun, Mailjet, Postmark, SendGrid, SparkPost and others.
-Regarding the question, I would use mailgun and its tracking functionality, which allows to track the status of the sending process. In particular, there is the possibility to send webhooks, which are endpoint's URLs where mailgun POSTs all the events regarding the submitted emails.
-So, when a particular event regarding a single email is received, a decision can be taken, but in order to here suggest a proper solution 
- there must be taken into account other project constraints, such as: importance of the emails sent or which are the policies over wrong email addresses.</p>
-</div>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="posts/scraper-on-aws-elastic-beanstalk-dont-do-that.html">Scraper on AWS Elastic Beanstalk - Don't do that!</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2017-09-09T09:05:10+02:00">2017-09-09 09:05</time>
-</div>
-                <div class="stats">
-                    
-                </div>
-                    <div itemprop="keywords" class="tags">
-        <ul>
-        Tags : 
-           <li><a class="tag p-category" href="categories/amazon-aws.html" rel="tag">Amazon AWS</a></li>
-           <li><a class="tag p-category" href="categories/django.html" rel="tag">django</a></li>
-           <li><a class="tag p-category" href="categories/scrapy.html" rel="tag">scrapy</a></li>
-        </ul>
-</div>
-
-            </div>
-            <div class="body">
-                <div>
-<p><img alt="Amazon AWS - Autoscaling" src="http://docs.aws.amazon.com/autoscaling/latest/userguide/images/as-basic-diagram.png"></p>
-<p>During one of my past coding experiences, I had to modify and maintain an already started Django project.</p>
-<p>The project architecture was (already) designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
-The issued scraper module was a <a href="https://docs.djangoproject.com/en/1.11/howto/custom-management-commands/">django-admin command</a> based on the python <a href="http://docs.python-requests.org/en/master/">requests</a> library, that used to parse the downloaded HTML files through the <a href="https://packages.ubuntu.com/xenial/python-lxml">lxml</a> library.</p>
-<p>This architecture had at least two inconveniences: </p>
-<ul>
-<li>
-<p>First, since the EC2 instances were not designed to have an high number of requests per second, they were not configured to have a big amount of RAM memory. So, without manually changing the EB configuration, after being activated, the scraping process was killed before reaching complete usage of its available memory by the <a href="http://manpages.ubuntu.com/manpages/xenial/man8/watchdog.8.html">watchdog</a> daemon of Ubuntu 16.04. 
-In order to solve this problem, I had to manually change the EB configuration, by asking for a different instance type, for instance: t2.medium or t2.large.
-This manual process creates a new EC2 instance with enhanced performances, and introduced a downtime period for the back-end. </p>
-</li>
-<li>
-<p>Second, when the scraper run, slowed down the Django back-end, whom responses took longer time to be generated.
-At that time the default configuration on the production environment had the Amazon Auto-scaling feature turned on, that feature, by continuously testing the response times of the instances, starts to create additional EC2 instances if the average response time raises too much. 
-That used to happen multiple times during the execution of the Scraping process, since it was manually started on the same EC2 instance, and used to slow down the web server.
-Let's naivelly close an eye on the fact that it was inefficient in terms of bills, the problem was that the Auto-scaling system after having increased the number of EC2 instances and having assessed that then the response time lowered, started the process of terminating some of them, in order to decrease their number, since it believes they are not needed anymore.
-That termination used to happen in a random fashion, in other words, the terminated EC2 instances were randomly chosen, so, the first EC2 instance risked to be shutdown and to not finish the scraping process. 
-As a possible solution, if the Amazon Auto-scaling feature would have been turned off, since on Amazon AWS the HTTPS configuration is strongly tightened with the Auto-scaling one, the production platform turned out to be not reachable via its normal URL, in other words: it was out of service for users.</p>
-</li>
-</ul>
-<p>After some troubles dealing with this architecture, I decided to solve the problem and migrate the scraper module to a different code base that leverages the <a href="https://scrapy.org/">scrapy</a> library and <a href="https://scrapinghub.com/">scrapinghub</a> platform, but this is another (interesting) story.</p>
-<h4>EDIT:</h4>
-<p>I just get aware that I could have configured autoscaling for <a href="http://docs.aws.amazon.com/autoscaling/latest/userguide/as-instance-termination.html#instance-protection-instance">instance protection</a> to avoid the termination of the issued instance where the scraper ran. Well, in the end, by having moved the scraper out of the web server, and having modified the project toward a microservices architecture, in my opinion, still, was not a bad idea.</p>
-</div>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="posts/me.html">About Me</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2017-08-04T10:52:56+02:00">2017-08-04 10:52</time>
-</div>
-                <div class="stats">
-                    
-                </div>
-            
-            </div>
-            <div class="body">
-                <div>
+        
+    </header><div itemprop="articleBody text">
+    <div>
 <h2>Antonio Ercole De Luca  <img src="https://avatars2.githubusercontent.com/u/3613943?v=4&amp;s=460" width="230" height="230" align="right">
 </h2>
 <p>I'm a Senior Software Developer with 5 years of experience on Java and Python languages and related technologies. I hold a Bachelor's degree on pure Computer Science and a Master's degree in Business Informatics from one of the best Italian Universities on the field of computer science: University of Pisa. </p>
@@ -185,11 +84,8 @@ As a possible solution, if the Amazon Auto-scaling feature would have been turne
 <li>Spanish : Fluent.</li>
 </ul>
 </div>
-            </div>
-        </div>
-    
-    
-                     <footer id="footer"><p>Contents © 2017         <a href="mailto:eracle@posteo.eu">Antonio Ercole De Luca (eracle)</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+    </div>
+</article><footer id="footer"><p>Contents © 2017         <a href="mailto:eracle@posteo.eu">Antonio Ercole De Luca (eracle)</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
             
         </footer>
 </div>
