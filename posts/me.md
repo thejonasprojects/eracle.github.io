@@ -53,5 +53,5 @@
 [stackoverflow]:    http://stackoverflow.com/users/3289963/eracle
 [researchgate]:     https://www.researchgate.net/profile/Antonio_De_Luca5 
 [github]:			https://github.com/eracle
-[linkedin]:			http://www.linkedin.com/pub/antonio-ercole-de-luca/1b/340/197
+[linkedin]:			https://www.linkedin.com/in/eracle/
 [CV]:				/CV_latest.pdf
