@@ -10,7 +10,7 @@
 -->
 
 # Antonio Ercole De Luca  <img src="https://avatars2.githubusercontent.com/u/3613943?v=4&s=460" width="200" height="200"  align="right"/>
- I'm a Senior Software Developer with 5 years of experience on Java and Python languages and related technologies. I hold a Bachelor's degree on pure Computer Science and a Master's degree in Business Informatics from one of the best Italian Universities on the field of computer science: University of Pisa. 
+ I'm a Senior Software Developer with 5 years of experience on Java, Python programming languages and their related technologies. I hold a Bachelor's degree on pure Computer Science and a Master's degree in Business Informatics from one of the best Italian Universities on the field of computer science: University of Pisa.
  
  I mainly focused on Web Technologies and Data Mining, with special interest on concepts such as Data Clustering, Graph Analysis, Information Retrieval, Natural Language Processing, Machine Learning and Web Scraping/Crawling.  
  
@@ -27,6 +27,7 @@
 - ElasticSearch;
 - Scrapy;
 - Ubuntu;
+- Docker;
 - Amazon AWS.
 
 
