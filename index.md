@@ -38,7 +38,7 @@ Check my [CV]!
 
 
 #### Working Experiences:
-- [Einhorn Manufaktur] - Today;
+- [Einhorn Manufaktur] - 3 Months;
 - [Legalkite] - 9 Months;
 - [SpazioDati] - 10 Months;
 - [Synthema] - 9 Months;
