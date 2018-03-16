@@ -7,66 +7,66 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://eracle.github.io/2017/index.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/archive.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/amazon-aws.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/cat_devops.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/cat_rest-api.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/django.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/drf.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/index.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/interview.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/mailgun.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/rest-api.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/categories/scrapy.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/index.html</loc>
-  <lastmod>2018-02-07T16:38:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/posts/index.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/posts/pre-interview-questions.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
  <url>
   <loc>http://eracle.github.io/posts/scraper-on-aws-elastic-beanstalk-dont-do-that.html</loc>
-  <lastmod>2018-01-20T15:36:00Z</lastmod>
+  <lastmod>2018-03-16T22:05:00Z</lastmod>
  </url>
 </urlset>
