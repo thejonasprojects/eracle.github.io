@@ -9,19 +9,17 @@
 .. type: text
 -->
 
-## Remote Backend Software Developer for Job; <img src="https://avatars2.githubusercontent.com/u/3613943?v=4&s=460" width="200" height="200"  align="right"/>
-### Data Science Enthusiast for Passion and Education;
-#### Digital Nomad as Life-style.
+## Remote Backend Software Developer; <img src="https://avatars2.githubusercontent.com/u/3613943?v=4&s=460" width="200" height="200"  align="right"/>
+### Data Science Enthusiast;
+#### Digital Nomad.
 
 Hi there!
 
-I'm a Senior Software Developer since back in 2013. 
-
-I focused on Web Technologies and Data Mining, with special interest on Data Analysis: Clustering, Graph Analysis, Information Retrieval, Natural Language Processing, Machine Learning and Web Scraping/Crawling.  
+My special interests are Web Technologies and Data Mining, with focus on Data Analysis: Clustering, Graph Analysis, Information Retrieval, Natural Language Processing, Machine Learning and Web Scraping/Crawling.  
 
 I hold a Master's degree in Business Informatics, and a Bachelor's degree on pure Computer Science, from University of Pisa.
 
-During my career, I also contributed on writing two scientific papers on the field of Web Scraping and Data Visualization. 
+During my career, I also contributed on two scientific papers on the field of Web Scraping and Data Visualization. 
 Check my [stackoverflow], [researchgate], [github] and [linkedin] profiles;
 
 Check my [CV]!
@@ -31,6 +29,7 @@ Check my [CV]!
 - Python 3;
 - Django;
 - ElasticSearch;
+- Neo4j;
 - Scrapy;
 - Ubuntu;
 - Docker;
@@ -43,7 +42,7 @@ Check my [CV]!
 - [SpazioDati] - 10 Months;
 - [Synthema] - 9 Months;
 - [Università di Pisa] - 6 Months;
-- Freelance - 4 Years.
+- Freelance - on rest of time.
 
 #### Languages:
 
