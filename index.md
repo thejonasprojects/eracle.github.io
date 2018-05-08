@@ -42,7 +42,7 @@ Check my [CV]!
 - [SpazioDati] - 10 Months;
 - [Synthema] - 9 Months;
 - [Università di Pisa] - 6 Months;
-- Freelance - on rest of time.
+- Freelance - rest of time.
 
 #### Languages:
 
