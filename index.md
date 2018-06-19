@@ -22,27 +22,18 @@ I hold a Master's degree in Business Informatics, and a Bachelor's degree on pur
 During my career, I also contributed on two scientific papers on the field of Web Scraping and Data Visualization. 
 Check my [stackoverflow], [researchgate], [github] and [linkedin] profiles;
 
-Check my [CV]!
 
 #### Current skills:
-
-- Python 3;
-- Django;
-- ElasticSearch;
-- Neo4j;
-- Scrapy;
-- Ubuntu;
-- Docker;
-- Amazon AWS.
-
+Check my [CV]!
 
 #### Working Experiences:
-- [Einhorn Manufaktur] - 3 Months;
-- [Legalkite] - 9 Months;
-- [SpazioDati] - 10 Months;
-- [Synthema] - 9 Months;
-- [Università di Pisa] - 6 Months;
-- Freelance - rest of time.
+- [Kiwi Campus];
+- [Einhorn Manufaktur];
+- [Legalkite];
+- [SpazioDati];
+- [Synthema];
+- [Università di Pisa];
+- Freelance.
 
 #### Languages:
 
@@ -51,6 +42,7 @@ Check my [CV]!
 - Spanish : Fluent.
 
 
+[Kiwi Campus]:      https://www.kiwicampus.com/
 [Legalkite]:        https://legalkite.ch
 [SpazioDati]:       http://spaziodati.eu
 [Synthema]:         http://synthema.it
