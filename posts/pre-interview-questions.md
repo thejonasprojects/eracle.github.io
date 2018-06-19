@@ -1,5 +1,5 @@
 <!--
-.. title:  Sr. backend software engineer - <br> interview questions:
+.. title:  Interview questions (and answers):
 .. slug: pre-interview-questions
 .. date: 2017-10-10 09:05:10 UTC+02:00
 .. tags: Amazon AWS, django, Interview, REST API, DRF, Mailgun
