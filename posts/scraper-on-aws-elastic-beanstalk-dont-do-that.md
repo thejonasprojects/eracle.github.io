@@ -1,5 +1,5 @@
 <!--
-.. title:  Scraper on AWS Elastic Beanstalk - <br>Don't do that!
+.. title:  Scraper on AWS Elastic Beanstalk - Please don't do that!
 .. slug: scraper-on-aws-elastic-beanstalk-dont-do-that
 .. date: 2017-09-09 09:05:10 UTC+02:00
 .. tags: Amazon AWS, scrapy, django
@@ -11,10 +11,10 @@
 
 ![Amazon AWS - Autoscaling](http://docs.aws.amazon.com/autoscaling/latest/userguide/images/as-basic-diagram.png)
 
-During one of my past coding experiences, I had to modify and maintain an already started Django project.
+During one of my past working experiences, I had to modify and maintain an already started Django project.
 
 
-The project architecture was (already) designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
+The project architecture was designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
 The issued scraper module was a [django-admin command] based on the python [requests] library, that used to parse the downloaded HTML files through the [lxml] library.
 
 

@@ -66,7 +66,6 @@ article: http://ogp.me/ns/article#
             </div>
             <div class="body">
                 <div>
-<p><img alt="Interview Questions" src="https://www.cheatsheet.com/wp-content/uploads/2016/07/Manager-and-a-candidate-in-a-job-interview.jpg"></p>
 <p>I want to share here some answers I have written, during a pre-interview that I've approached for the role of sr. backend software engineer:</p>
 <h5>How would you design an horizontally scalable REST-API? Which techniques? Which Backend Architecture? Database?</h5>
 <p>Also influenced by the tools I've already used, I would use Amazon AWS, in particular, for the Django web server: Elastic Beanstalk and its Auto Scaling feature, which automatically deploys new back-end instances during peak load periods. That would implement an horizontally scalable REST-API.
@@ -99,7 +98,7 @@ So, when a particular event regarding a single email is received, a decision can
             </div>
         </div>
         <div class="post">
-            <h1 class="title"><a href="scraper-on-aws-elastic-beanstalk-dont-do-that.html">Scraper on AWS Elastic Beanstalk - <br>Don't do that!</a></h1>
+            <h1 class="title"><a href="scraper-on-aws-elastic-beanstalk-dont-do-that.html">Scraper on AWS Elastic Beanstalk - Please don't do that!</a></h1>
             <div class="meta">
                 <div class="authordate">
                     <time class="timeago" datetime="2017-09-09T09:05:10+02:00">2017-09-09 09:05</time>
@@ -120,8 +119,8 @@ So, when a particular event regarding a single email is received, a decision can
             <div class="body">
                 <div>
 <p><img alt="Amazon AWS - Autoscaling" src="http://docs.aws.amazon.com/autoscaling/latest/userguide/images/as-basic-diagram.png"></p>
-<p>During one of my past coding experiences, I had to modify and maintain an already started Django project.</p>
-<p>The project architecture was (already) designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
+<p>During one of my past working experiences, I had to modify and maintain an already started Django project.</p>
+<p>The project architecture was designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
 The issued scraper module was a <a href="https://docs.djangoproject.com/en/1.11/howto/custom-management-commands/">django-admin command</a> based on the python <a href="http://docs.python-requests.org/en/master/">requests</a> library, that used to parse the downloaded HTML files through the <a href="https://packages.ubuntu.com/xenial/python-lxml">lxml</a> library.</p>
 <p>This architecture had at least two inconveniences: </p>
 <ul>

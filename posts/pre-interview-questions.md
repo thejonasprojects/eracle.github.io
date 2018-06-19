@@ -9,7 +9,6 @@
 .. type: text
 -->
 
-![Interview Questions](https://www.cheatsheet.com/wp-content/uploads/2016/07/Manager-and-a-candidate-in-a-job-interview.jpg)
 
 I want to share here some answers I have written, during a pre-interview that I've approached for the role of sr. backend software engineer:
 

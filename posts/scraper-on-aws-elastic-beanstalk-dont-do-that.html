@@ -6,7 +6,7 @@ article: http://ogp.me/ns/article#
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Scraper on AWS Elastic Beanstalk - &lt;br&gt;Don't do that! | Personal Page</title>
+<title>Scraper on AWS Elastic Beanstalk - Please don't do that! | Personal Page</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 <link rel="canonical" href="http://eracle.github.io/posts/scraper-on-aws-elastic-beanstalk-dont-do-that.html">
@@ -27,10 +27,10 @@ article: http://ogp.me/ns/article#
           });
         </script><meta name="author" content="Antonio Ercole De Luca (eracle)">
 <meta property="og:site_name" content="Personal Page">
-<meta property="og:title" content="Scraper on AWS Elastic Beanstalk - &lt;br&gt;Don't do that!">
+<meta property="og:title" content="Scraper on AWS Elastic Beanstalk - Please don't do that!">
 <meta property="og:url" content="http://eracle.github.io/posts/scraper-on-aws-elastic-beanstalk-dont-do-that.html">
-<meta property="og:description" content="During one of my past coding experiences, I had to modify and maintain an already started Django project.
-The project architecture was (already) designed to have a Django based REST APIs (with django-">
+<meta property="og:description" content="During one of my past working experiences, I had to modify and maintain an already started Django project.
+The project architecture was designed to have a Django based REST APIs (with django-rest-fram">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-09-09T09:05:10+02:00">
 <meta property="article:tag" content="Amazon AWS">
@@ -48,7 +48,7 @@ The project architecture was (already) designed to have a Django based REST APIs
 
         </ul></section><section class="page-content"><div class="content" rel="main">
     <div class="post">
-        <h1 class="p-name entry-title" itemprop="headline name">Scraper on AWS Elastic Beanstalk - &lt;br&gt;Don't do that!</h1>
+        <h1 class="p-name entry-title" itemprop="headline name">Scraper on AWS Elastic Beanstalk - Please don't do that!</h1>
 
         <div class="meta">
             <div class="authordate">
@@ -71,8 +71,8 @@ The project architecture was (already) designed to have a Django based REST APIs
         <div class="body">
             <div>
 <p><img alt="Amazon AWS - Autoscaling" src="http://docs.aws.amazon.com/autoscaling/latest/userguide/images/as-basic-diagram.png"></p>
-<p>During one of my past coding experiences, I had to modify and maintain an already started Django project.</p>
-<p>The project architecture was (already) designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
+<p>During one of my past working experiences, I had to modify and maintain an already started Django project.</p>
+<p>The project architecture was designed to have a Django based REST APIs (with django-rest-framework) which used to run on Amazon Elastic Beanstalk. By not deepening too much on details, there was the core content of the database that was filled by a semi-automatic procedure. That procedure resided on the same project's code base, and involved the instantiation of a scraper module, which therefore, used to run on the same EC2 instance where the web server was. By designing it so, who developed it, had direct access to the database by using the Django's data access functionalities.
 The issued scraper module was a <a href="https://docs.djangoproject.com/en/1.11/howto/custom-management-commands/">django-admin command</a> based on the python <a href="http://docs.python-requests.org/en/master/">requests</a> library, that used to parse the downloaded HTML files through the <a href="https://packages.ubuntu.com/xenial/python-lxml">lxml</a> library.</p>
 <p>This architecture had at least two inconveniences: </p>
 <ul>
