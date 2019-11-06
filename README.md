@@ -2,7 +2,8 @@
 description: Personal Page
 ---
 
-# Antonio Ercole De Luca
+# Antonio Ercole De Luca 
+<img src="https://avatars2.githubusercontent.com/u/3613943?v=4&s=460" width="200" height="200"  align="right"/>
 
 ## Data Engineer
 
