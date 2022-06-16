@@ -5,19 +5,13 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://eracle.github.io/</loc>
-  <lastmod>2019-02-18T22:05:10+00:00</lastmod>
-  <priority>1.00</priority>
+  <loc>https://eracle.me/</loc>
 </url>
 <url>
-  <loc>http://eracle.github.io/index.html</loc>
-  <lastmod>2019-02-18T22:05:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://eracle.me/index.html</loc>
 </url>
 <url>
-  <loc>http://eracle.github.io/CV_latest.pdf</loc>
-  <lastmod>2019-02-18T22:05:10+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://eracle.me/CV_latest.pdf</loc>
 </url>
 
 
